@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 rm -rf doc/*
 epydoc --html --output doc/ --name "Python-OpenID" --top openid \
